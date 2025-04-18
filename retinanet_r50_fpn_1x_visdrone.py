@@ -12,10 +12,11 @@ data_root ='S:/PyCharm Community Edition 2021.3.1/project-python/mmdetection/dat
 
 metainfo = {
     'classes':
-        ('Dactylogyrus', 'Trichodina', 'hs-Ich', 'ds-Ich', 'Gyrodactylus',),
+        ('id1', 'id2', 'id3', 'id4', 'id5',),
+    # 更换自己的数据类别名，我是5分类
     # palette is a list of color tuples, which is used for visualization.
-    # 'palette':
-    #     [(220, 20, 60), (119, 11, 32), (0, 0, 142), (0, 0, 230), (106, 0, 228), ]
+    'palette':
+        [(220, 20, 60), (119, 11, 32), (0, 0, 142), (0, 0, 230), (106, 0, 228), ]
 }
 
 train_dataloader = dict(
